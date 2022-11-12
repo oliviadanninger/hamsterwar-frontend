@@ -1,0 +1,15 @@
+@import "../VARIABLES/Variables.scss";
+
+nav {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $blueColor;
+
+    img {
+        width: 25px;
+        height: 25px;
+        border-radius: 0;
+    }
+}

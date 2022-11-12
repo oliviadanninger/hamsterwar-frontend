@@ -1,0 +1,20 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.639);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay .modal {
+  padding: 10% 15%;
+  background-color: white;
+  max-width: 60vw;
+}
+.overlay .modal .refresh-btn-container {
+  padding-top: 5vh;
+  text-align: center;
+}/*# sourceMappingURL=Error.css.map */

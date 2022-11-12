@@ -1,0 +1,74 @@
+.Battle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10vh;
+}
+.Battle .flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+.Battle .flex-container .fighters-container {
+  display: flex;
+  justify-content: space-between;
+}
+.Battle .flex-container .fighters-container article {
+  padding: 1em;
+}
+.Battle .flex-container .fighters-container .hamster-clicked {
+  border: 5px dotted green;
+}
+.Battle .flex-container > span {
+  color: #5FB9A6;
+  font-size: 14px;
+}
+.Battle button {
+  margin-top: 1em;
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
+  background-color: white;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: #C91C00;
+}
+.Battle button:after {
+  background-clip: padding-box;
+  background-color: #EC8490;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}/*# sourceMappingURL=Battle.css.map */

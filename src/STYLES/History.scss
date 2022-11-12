@@ -1,0 +1,11 @@
+@import "../VARIABLES/Variables.scss";
+
+.History {
+   @include pageStyle();
+
+   .matches-container {
+      display: flex;
+      flex-direction: column;
+      gap: 5vh;
+   }
+}

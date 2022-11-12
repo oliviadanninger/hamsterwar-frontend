@@ -1,0 +1,52 @@
+@import "../VARIABLES/Variables.scss";
+
+.Battle {
+    @include pageStyle();
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+
+
+        .fighters-container {
+            display: flex;
+            justify-content: space-between;
+
+            article {
+                padding: 1em;
+            }
+            
+            .hamster-clicked {
+                border: 5px dotted green;
+            }
+        }
+    }
+
+    .flex-container>span {
+        color: $greenColor;
+        font-size: 14px;
+    }
+
+    button {
+        @include btnStyle();
+        background-color: $redColor;
+    }
+
+    button:after {
+        background-clip: padding-box;
+        background-color: $pinkColor;
+        border: solid transparent;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        bottom: -4px;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+
+
+}

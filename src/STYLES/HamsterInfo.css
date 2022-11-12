@@ -1,0 +1,35 @@
+.HamsterInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8vh;
+}
+.HamsterInfo .big-img {
+  width: 65vw;
+  border: 1px solid #222222;
+}
+.HamsterInfo article {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.HamsterInfo span {
+  font-weight: 700;
+}
+.HamsterInfo h2 {
+  font-weight: 700;
+  color: #5FB9A6;
+  font-size: 24px;
+}
+.HamsterInfo h4 {
+  font-size: 16px;
+  color: #5FB9A6;
+}
+.HamsterInfo .defeated-container {
+  display: grid;
+  gap: 3vh;
+}
+.HamsterInfo .defeated-container img {
+  width: 80px;
+  height: 80px;
+}/*# sourceMappingURL=HamsterInfo.css.map */

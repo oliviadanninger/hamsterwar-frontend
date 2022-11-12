@@ -1,0 +1,10 @@
+.History {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+.History .matches-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}/*# sourceMappingURL=History.css.map */

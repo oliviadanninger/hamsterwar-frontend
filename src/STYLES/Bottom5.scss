@@ -1,0 +1,49 @@
+@import "../VARIABLES/Variables.scss";
+
+.Top-Bottom-5 {
+    @include pageStyle();
+
+    .five-container {
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+
+        article {
+            display: flex;
+            gap: 1vh;
+            flex-direction: column-reverse;
+
+            img {
+                height: 60px;
+                width: 60px;
+            }
+
+            p {
+                font-size: 10px;
+            }
+
+            div {
+                background-color: $greenColor;
+                box-sizing: border-box;
+                padding-top: 1vh;
+                font-family: 'Quicksand', sans-serif;
+            }
+
+            .first {
+                height: 150px;
+            }
+            .second {
+                height: 120px;
+            }
+            .third {
+                height: 90px;
+            }
+            .fourth {
+                height: 60px;
+            }
+            .fifth {
+                height: 30px;
+            }
+        }
+    }
+}

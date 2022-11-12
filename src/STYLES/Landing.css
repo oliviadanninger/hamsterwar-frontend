@@ -1,0 +1,181 @@
+.Landing {
+  background-color: #00409B;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+.Landing .info {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  line-height: 1.5em;
+}
+.Landing .info p {
+  font-weight: 700;
+}
+.Landing .button-container {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.Landing .button-container div {
+  width: 75vw;
+  display: flex;
+  gap: 5vw;
+}
+.Landing .button-container button {
+  height: 100px;
+}
+.Landing .button-container .green-btn {
+  width: 75vw;
+  margin-top: 1em;
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
+  background-color: white;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.Landing .button-container .green-btn:after {
+  background-clip: padding-box;
+  background-color: #5FB9A6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.Landing .pink-btn {
+  width: 35vw;
+  margin-top: 1em;
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
+  background-color: white;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.Landing .pink-btn:after {
+  background-clip: padding-box;
+  background-color: #EC8490;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.Landing .red-btn {
+  width: 35vw;
+  margin-top: 1em;
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
+  background-color: white;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.Landing .red-btn:after {
+  background-clip: padding-box;
+  background-color: #C91C00;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}/*# sourceMappingURL=Landing.css.map */

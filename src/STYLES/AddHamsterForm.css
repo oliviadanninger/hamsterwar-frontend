@@ -1,0 +1,86 @@
+.AddHamsterForm {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.698);
+  width: 100vw;
+}
+.AddHamsterForm form {
+  background-color: #EC8490;
+  text-align: start;
+  padding: 10%;
+  margin: 0;
+  width: 80vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  border-radius: 10px;
+}
+.AddHamsterForm form h1 {
+  font-size: 25px;
+  margin-bottom: 2vh;
+}
+.AddHamsterForm form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vh;
+  font-size: 12px;
+}
+.AddHamsterForm form label input {
+  border-radius: 5px;
+  border: none;
+  padding: 5%;
+}
+.AddHamsterForm form button {
+  margin-top: 1em;
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
+  background-color: white;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-top: 3vh;
+}
+.AddHamsterForm form button:after {
+  background-clip: padding-box;
+  background-color: #00409B;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}/*# sourceMappingURL=AddHamsterForm.css.map */

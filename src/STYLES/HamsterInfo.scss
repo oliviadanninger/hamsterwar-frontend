@@ -1,0 +1,41 @@
+@import "../VARIABLES/Variables.scss";
+
+.HamsterInfo {
+    @include pageStyle();
+
+    .big-img {
+        width: 65vw;
+        border: 1px solid #222222;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+    }
+
+    span {
+        font-weight: 700;
+    }
+
+    h2 {
+        font-weight: 700;
+        color: $greenColor;
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 16px;
+        color: $greenColor;
+    }
+
+    .defeated-container {
+        display: grid;
+        gap: 3vh;
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+}

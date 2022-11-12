@@ -1,0 +1,12 @@
+nav {
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00409B;
+}
+nav img {
+  width: 25px;
+  height: 25px;
+  border-radius: 0;
+}/*# sourceMappingURL=Nav.css.map */

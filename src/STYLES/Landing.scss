@@ -1,0 +1,103 @@
+@import "../VARIABLES/Variables.scss";
+
+.Landing {
+    background-color: $blueColor;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+
+    .info {
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        line-height: 1.5em;
+        ;
+
+        p {
+            font-weight: 700;
+        }
+    }
+
+    .button-container {
+        width: 75vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+
+        div {
+            width: 75vw;
+            display: flex;
+            gap: 5vw;
+
+        }
+
+        button {
+            height: 100px;
+        }
+
+        .green-btn {
+            width: 75vw;
+            @include btnStyle();
+        }
+
+        .green-btn:after {
+            background-clip: padding-box;
+            background-color: $greenColor;
+            border: solid transparent;
+            border-radius: 16px;
+            border-width: 0 0 4px;
+            bottom: -4px;
+            content: "";
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: -1;
+        }
+    }
+
+    .pink-btn {
+        width: 35vw;
+        @include btnStyle();
+    }
+
+    .pink-btn:after {
+        background-clip: padding-box;
+        background-color: $pinkColor;
+        border: solid transparent;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        bottom: -4px;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+
+    .red-btn {
+        width: 35vw;
+        @include btnStyle();
+    }
+
+    .red-btn:after {
+        background-clip: padding-box;
+        background-color: $redColor;
+        border: solid transparent;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        bottom: -4px;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+}

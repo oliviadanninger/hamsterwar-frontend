@@ -1,0 +1,21 @@
+@import "../VARIABLES/Variables.scss";
+
+.Gallery {
+    @include pageStyle();
+
+    span {
+        color: $greenColor;
+        font-size: 16px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10vw;
+    }
+
+    img {
+        width: 80px;
+        height: 80px;
+    }
+}
